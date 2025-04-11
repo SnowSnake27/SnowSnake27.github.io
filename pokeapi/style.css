@@ -1,0 +1,753 @@
+
+body{
+    background-color: rgb(90, 77, 77);
+    margin: 0;
+ margin-top: 0;
+ margin-bottom: 0;
+ image-rendering: pixelated;
+ font-family: "Pixelify Sans", sans-serif;
+
+ font-weight: lighter;
+ font-style: normal;
+}
+#PokemonSubmit{
+    display: inline-block;
+    height: 25px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+#PokemonName{
+    width: 135px;
+    height: 20px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    border-radius: 8px;
+    border: 3px solid black;
+   
+}
+
+#PokemonSubmit:hover{
+    
+    background-color: white;
+    color: red;
+}
+
+header{
+    margin: 0;
+    background-image: url(bilder/51c15afea2694c32c1002d26f1acc89f.jpg);
+}
+
+
+
+#hidden{
+    background-color: #ff0000;
+    display: none;
+    border: 3px solid black;
+    border-bottom: 0px ;
+
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding: 4px;
+    
+        -webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes fadeInUp {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        }
+        @keyframes fadeInUp {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        } 
+
+h2{
+    margin-bottom: 0;
+}
+
+.Karte{
+    
+    text-align: center;
+    background-color: #ffcb05 ;
+    width: 200px;
+    border: 8px solid #3c5aa6;
+    border-radius: 8px;
+    
+}
+
+#pokemonSprite{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Showcase{
+    height: 140px;
+    width: 120px;
+    background-color:whitesmoke ;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+#pokemonContainer {
+    background-color: red;
+
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.pokemon {
+    
+    margin: 5px;
+    text-align: center;
+    color: black;
+}
+
+.pokemon img {
+    width: 100px;
+    height: 100px;
+}
+
+#Suchbar{
+image-rendering: auto;
+    background-image: url(bilder/pokemon-chromebook-wallpaper.jpg);
+    padding: 20px 25px;
+    border: 3px solid black;
+    margin: 0;
+    margin-bottom: 0px;
+  padding: 2rem 2rem;
+  text-align: center;
+ 
+ 
+}
+
+.nextCard{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: aqua;
+    width: 10px;
+    height: 30px;
+}
+#Suchen{
+    padding: auto;
+}
+.pokemon{
+    width: 200px;
+    background-color: white;
+    border: 3px solid;
+    
+position: relative;
+    font-weight: 100;
+}
+.pokemon-grass:hover{
+    background-color: green;
+}
+
+.pokemon-fire:hover{
+    background-color: red;
+}
+.pokemon-water:hover{
+    background-color: blue;
+    color: white;
+}
+.pokemon-bug:hover{
+    background-color: greenyellow;
+}
+.pokemon-normal:hover{
+    background-color: rgb(187, 204, 204);
+}
+.pokemon-poison:hover{
+    background-color: purple;
+    
+}
+.pokemon-electric:hover{
+    background-color: yellow;
+}
+.pokemon-ground:hover{
+    background-color: #ffcb05;
+}
+.pokemon-psychic:hover{
+    background-color: rgb(226, 17, 163);
+}
+.pokemon-fairy:hover{
+    background-color: pink;
+}
+.pokemon-fighting:hover{
+    background-color: darkgoldenrod;
+}
+.pokemon-dragon:hover{
+    background-color: #3c5aa6;
+}
+
+
+.pokemon-ice:hover{
+    background-color: aqua;
+}
+.pokemon-steel:hover{
+    background-color: mintcream;
+}
+.pokemon-ghost:hover{
+    background-color: darkslateblue;
+}
+.pokemon-dark:hover{
+    background-color: black;
+    color: white;
+}
+.pokemon-rock:hover{
+    background-color: rosybrown;
+}
+button {
+    background-color: rgb(255, 65, 65);
+    border: 3px solid black;
+    border-radius: 6px;
+    
+}
+
+#Normal{
+    background-color: aliceblue;
+}
+#Normal:focus{
+    border: 4px solid orange;
+}
+
+#Grass{
+    background-color: green;
+}
+
+#Grass:focus{
+    border: 4px solid orange;
+}
+
+
+#Water{
+    background-color: blue;
+    color: white;
+}
+
+#Water:focus{
+    border: 4px solid orange;
+}
+
+
+
+#Fire{
+    background-color: red;
+}
+#Fire:focus{
+    border: 4px solid orange;
+}
+
+
+
+#Bug{
+    background-color: yellowgreen;
+}
+#Bug:focus{
+    border: 4px solid orange;
+}
+
+#Poison{
+    background-color: purple;
+}
+#Poison:focus{
+    border: 4px solid orange;
+}
+
+#Electric{
+    background-color: yellow;
+}
+#Electric:focus{
+    border: 4px solid orange;
+}
+
+#Ground{
+    background-color: #ffcb05;
+}
+#Ground:focus{
+    border: 4px solid orange;
+}
+
+#Psychic{
+    background-color:  rgb(226, 17, 163) ;
+}
+#Psychic:focus{
+    border: 4px solid orange;
+}
+
+#Fairy{
+    background-color: pink;
+}
+#Fairy:focus{
+    border: 4px solid orange;
+}
+
+#Fighting{
+    background-color: darkgoldenrod;
+}
+#Fighting:focus{
+    border: 4px solid orange;
+}
+
+#Dragon{
+    background-color: #3c5aa6;
+}
+#Dragon:focus{
+    border: 4px solid orange;
+}
+
+#Flying{
+    background-color:  rgb(69, 69, 206);
+}
+#Flying:focus{
+    border: 4px solid orange;
+}
+
+#Ice{
+    background-color: aqua;
+}
+#Ice:focus{
+    border: 4px solid orange;
+}
+
+#Steel{
+    background-color: mintcream;
+}
+#Steel:focus{
+    border: 4px solid orange;
+}
+
+#Ghost{
+    background-color: darkslateblue;
+}
+#Ghost:focus{
+    border: 4px solid orange;
+}
+
+#Dark{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+#Dark:focus{
+    border: 4px solid orange;
+}
+
+#Rock{
+    background-color: rosybrown;
+}
+#Rock:focus{
+    border: 4px solid orange;
+}
+
+
+
+
+@keyframes glow{
+    0% {-webkit-box-shadow:0px 0px 62px 11px rgba(40,5,242,0.33);
+        -moz-box-shadow: 0px 0px 62px 11px rgba(40,5,242,0.33);
+        box-shadow: 0px 0px 62px 11px rgba(40,5,242,0.33);}
+    25% {-webkit-box-shadow:0px 0px 62px 44px rgba(40,5,242,0.79);
+        -moz-box-shadow: 0px 0px 62px 44px rgba(40,5,242,0.79);
+        box-shadow: 0px 0px 62px 44px rgba(40,5,242,0.79);}
+    50% {-webkit-box-shadow:0px 0px 62px 52px rgba(40,5,242,1);
+        -moz-box-shadow: 0px 0px 62px 52px rgba(40,5,242,1);
+        box-shadow: 0px 0px 62px 52px rgba(40,5,242,1);}
+    75% {-webkit-box-shadow:0px 0px 62px 29px rgba(40,5,242,0.62);
+        -moz-box-shadow: 0px 0px 62px 29px rgba(40,5,242,0.62);
+        box-shadow: 0px 0px 62px 29px rgba(40,5,242,0.62);}
+    99% {-webkit-box-shadow:0px 0px 62px 29px rgba(40,5,242,0);
+        -moz-box-shadow: 0px 0px 62px 29px rgba(40,5,242,0);
+        box-shadow: 0px 0px 62px 29px rgba(40,5,242,0);}
+        100% {background-color: white;
+            border: 3px solid;
+            }
+
+}
+
+#ID{
+    text-align: center;
+}
+.PokeName{
+    text-align: center;
+}
+.PokeIMG{
+ width: 100px;
+}
+.pokemon-search  {
+    text-align: center;
+    background-color: white;
+    border: 3px solid;
+    
+    animation-name: glow;
+    animation-duration: 4s;
+}
+
+
+#daynight{
+    width: 30px;
+}
+
+.Describtion{
+    border : 3px solid black;
+    width: 30px;
+    height : 20px
+}
+
+
+.fadeInLeftBig {
+    image-rendering: pixelated; 
+    -webkit-animation-name: fadeInLeftBig;
+    animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInLeftBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInLeftBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+
+    
+
+   
+.onclick{
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    
+    
+}
+
+.InfoH{
+    
+   
+    padding-inline: 5px;
+    
+}
+
+.InfoW{
+ 
+    padding-inline: 5px;
+    
+}
+
+.InfoT{
+    
+    padding-inline: 5px;
+   
+    
+}
+
+
+.StatHP{
+    
+    padding-inline: 5px;
+
+}
+
+.StatA{
+    padding-inline: 5px;
+  
+}
+
+.StatS{
+   
+    padding-inline: 5px;
+
+}
+
+.StatD{
+   
+    padding-inline: 5px;
+  
+}
+
+#color{
+    color: white;
+    
+   
+}
+
+#Überschrift{
+    color: white;
+
+    ;
+    
+}
+h4{
+    color: white;
+    text-shadow: rgba(255,242,0,1) 0px 0px 12px;
+}
+
+button:hover{
+
+  transform: scale(1.1) ;
+    
+    
+}
+
+
+#RandomPokemon{
+    color: white;
+    background-color: tomato;
+    
+  
+}
+#backOnTop{
+    background-color: black;
+    color: white;
+    margin-left: 1250px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    font-weight: bold;
+    position: fixed;
+    text-align: left;
+}
+
+#Small:focus{
+    border: 4px solid orange;
+}
+
+#Medium:focus{
+    border: 4px solid orange;
+}
+#Big:focus{
+    border: 4px solid orange;
+}
+
+#Light:focus{
+    border: 4px solid orange;
+}
+#Middle:focus{
+    border: 4px solid orange;
+}
+#Heavy:focus{
+    border: 4px solid orange;
+}
+#Generation-1{
+    background-color: yellow;
+    color: blue;
+}
+#Generation-2{
+    background-color: blue;
+    color: yellow;
+}
+#Generation-3{background-color: yellow;
+color: blue;}
+#Generation-4{
+    background-color: blue;
+    color: yellow;
+}
+#Generation-5{
+    background-color: yellow;
+    color: blue;
+}
+#Generation-6{
+    background-color: blue;
+    color: yellow;
+}
+#Generation-7{
+    background-color: yellow;
+    color: blue;
+}
+#Generation-8{
+    background-color: blue;
+    color: yellow;
+}
+#Generation-9{
+    background-color: yellow;
+    color: blue;
+}
+
+#ExtraPokemon{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+}
+
+
+#Typenbutton{
+    margin-top: 0;
+    text-align: center;
+    background-color: #ff0000;
+    border: 3px solid ;
+    border-top: 0px;
+
+    color: black;
+    padding-top: 5px;
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInUp {
+    0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    }
+    @keyframes slideInUp {
+    0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    
+    }
+    
+}
+
+#Typenbutton:hover{
+  
+  background-color: rgb(221, 18, 18);
+}
+
+#Typenbutton .noBorder{
+    border-top: 0px;
+}
+
+#Language{
+    padding: 2px;
+   image-rendering: pixelated; 
+ font-family: "Pixelify Sans", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: weight;
+ font-style: normal;
+    background-color: #227940;
+    border: 2px solid blue;
+}
+
+#GermanFlag{
+    padding-left: 15px;
+    padding-bottom: 1px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    padding-top: 50%;
+    padding-bottom: 50%;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
+  
+  
+  .topnav a.active {
+    
+    color: white;
+  }
+
+
+  .Text{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: medium;
+    border-top: 2px solid  black;
+    border-bottom: 2px solid black;
+  }
+
+  #results{
+    margin-left: 632px;
+   font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: none;
+  display: table;
+  text-align: center;
+    margin-top: 0;
+    list-style-type: none;
+    list-style: none;
+    background-color: #ffffff;
+    color: black;
+    
+    width: 135px;
+   
+    padding: 0; 
+     
+  }
+
+  #results li{
+    border:1px solid black ;
+  }
+ 
+  #results li:hover{
+    background-color: lightblue;
+   
+  } 

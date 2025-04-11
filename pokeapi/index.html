@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="bilder/120px-Pokémon-Icon_006_KAPU.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html"><img class="fadeInLeftBig" src="bilder/Pokédex_logo.png" width="90px" alt=""></a>
+        <a href="items.html">Items</a>
+        <a href="moves.html">Locations</a>
+        <a href="berries.html">Berries</a>
+        <a href="species.html">Species</a>
+      </div>
+     
+   
+   <div id="color">  <h2 >Search for Pokemon :  <h2>
+   
+        
+           
+                
+
+                    <div id="Suchbar"> 
+                        <input  list="Pokelist" type="text" placeholder="Enter Name or ID :" id="PokemonName"  >  <button  id="PokemonSubmit">Enter</button>
+                        <ul id="results"></ul>
+                       
+
+                         <br>
+                         <br><button id="RandomPokemon">Get Random-Pokemon</button> 
+                         
+                            </div>  
+                           
+            
+                        </div>
+                        <div id="hidden">
+                            <h4>Sort by type :</h4>  <button id="Normal" onclick="showNormal()">Normal</button>
+                            <button id="Grass" onclick="showGrass()">Grass</button> <button id="Fire" onclick=showFire()>Fire</button>
+                             <button id="Water" onclick="showWater()">Water</button> 
+                             <button id="Bug" onclick="showBug()">Bug</button>
+                              <button id="Poison" onclick="showPoison()">Poison</button> 
+                              <button id="Electric" onclick="showElectric()">Electric</button>
+                               <button id="Ground" onclick="showGround()">Ground</button> 
+                               <button id="Psychic" onclick="showPsychic()">Psychic</button> 
+                               <button id="Fairy" onclick="showFairy()">Fairy</button> 
+                               <button id="Fighting" onclick="showFighting()">Fighting</button> 
+                               <button id="Dragon" onclick="showDragon()">Dragon</button> 
+                                <button id="Ice" onclick="showIce()">Ice</button>
+                               <button id="Steel" onclick="showSteel()">Steel</button>
+                               <button id="Rock" onclick="showRock()">Rock</button>
+                               <button id="Ghost" onclick="showGhost()">Ghost</button>
+                               <button id="Dark" onclick="showDark()">Dark</button> 
+                               <button id="Flying" onclick="showFlying()">Flying</button>
+                          
+                               <h4>Sort by height :  </h4>
+                               <button id="Small" onclick="showSmall()">
+        Small
+                               </button>
+        
+                               <button id="Medium" onclick="showMedium()">
+        Medium
+                               </button>
+        
+                               <button id="Big" onclick="showBig()">
+        Big
+                               </button>
+                               <h4>Sort by weight : </h4>
+                               <button id="Light"  onclick="showLight()">Light</button>
+                               <button id="Middle" onclick="showMiddle()">Medium</button>
+                               <button id="Heavy" onclick="showHeavy()">Heavy</button>
+        
+                              <h4>All Generations : </h4>
+                              <button onclick="show1()" id="Generation-1">Generation-1 </button>
+                              <button onclick="show2()" id="Generation-2">Generation-2</button>
+                              <button onclick="show3()" id="Generation-3">Generation-3</button>
+                              <button onclick="show4()" id="Generation-4">Generation-4</button>
+                              <button onclick="show5()" id="Generation-5">Generation-5</button>
+                              <button onclick="show6()" id="Generation-6">Generation-6</button>
+                              <button onclick="show7()" id="Generation-7">Generation-7</button>
+                              <button onclick="show8()" id="Generation-8">Generation-8</button>
+                              <button onclick="show9()" id="Generation-9">Generation-9</button>
+                              <button onclick="showExtra()" id="ExtraPokemon" >Extra Pokemon</button>
+                                   
+                            </div>
+
+                        <h4 id="Typenbutton" onclick="showSearch()"> 
+                            <section id="Upwards" > </section>
+                            <section id="Downwards"> ↓ ↓ ↓  Advanced Search ↓ ↓ ↓ </section>   </h4>
+               
+        
+
+                
+                    <h2 id="Überschrift">All Pokemon : 
+                    
+                    
+                    
+                    </h2>
+
+                </div>
+
+                 
+                    
+                    
+                
+                <div  id="pokemonContainer"></div>
+
+
+                <footer>
+                 <a href="https://pokeapi.co/">PokeApi</a> <a href="https://cssbud.com/">CSS-BUD</a>
+                </footer>
+                
+                
+            
+        
+
+        
+
+            
+    
+    
+    
+    
+            <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
